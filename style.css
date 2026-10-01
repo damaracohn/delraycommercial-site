@@ -41,6 +41,11 @@ ul.plain li strong{color:var(--ink);}
 .markets{display:flex;flex-wrap:wrap;gap:10px 18px;padding:0;margin:0;list-style:none;}
 .markets li a{font-size:.94rem;color:var(--slate);text-decoration:none;border-bottom:1px dotted var(--line);}
 .markets li a:hover{color:var(--navy);}
+section.reports-highlight{background:#fbf4e6;border-top:4px solid var(--brass);}
+section.reports-highlight h2{color:var(--navy);}
+.market-buttons{display:flex;flex-wrap:wrap;gap:12px;padding:0;margin:22px 0 0;list-style:none;}
+.market-buttons li a{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.96rem;padding:12px 24px;border-radius:999px;text-decoration:none;letter-spacing:.2px;transition:background .15s ease,transform .15s ease,box-shadow .15s ease;}
+.market-buttons li a:hover{background:var(--navy-2);transform:translateY(-2px);box-shadow:0 6px 14px rgba(16,35,63,.22);}
 form{background:#fff;border:1px solid var(--line);padding:28px;}
 form label{display:block;font-size:.88rem;font-weight:600;margin:14px 0 6px;color:var(--navy);}
 form label:first-child{margin-top:0;}
