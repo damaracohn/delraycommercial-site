@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://delraycommercial.com/sitemap.xml
+LLM-Content: https://delraycommercial.com/llms.txt
