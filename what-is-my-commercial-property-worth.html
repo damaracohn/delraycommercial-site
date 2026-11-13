@@ -200,7 +200,7 @@ document.getElementById('valform').addEventListener('submit',function(e){
   data.submitted_at=new Date().toISOString();
   btn.disabled=true; btn.textContent='Sending...';
   status.style.display='none';
-  fetch('https://hook.us2.make.com/edjw8thdxyn79j9391vefl9eg8656m8s',{
+  fetch('https://hook.us2.make.com/rdp36da9emnxe5p83pxfa3421lh4udvz',{
     method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)
   }).then(function(r){
     if(!r.ok) throw new Error('bad status');
