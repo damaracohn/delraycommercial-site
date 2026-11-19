@@ -15,8 +15,8 @@ header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:20;}
 .topbar{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1080px;margin:0 auto;flex-wrap:wrap;gap:12px;}
 .logo{font-family:'Inter',sans-serif;font-size:1.25rem;font-weight:700;color:#fff;text-decoration:none;letter-spacing:.2px;}
 .logo span{color:var(--brass);}
-nav{display:flex;gap:22px;flex-wrap:wrap;align-items:center;}
-nav a{color:#dfe4ee;text-decoration:none;font-size:.94rem;font-weight:500;}
+nav{display:flex;gap:15px;flex-wrap:wrap;align-items:center;}
+nav a{color:#dfe4ee;text-decoration:none;font-size:.86rem;font-weight:500;}
 nav a.current{color:#fff;border-bottom:2px solid var(--brass);padding-bottom:3px;}
 nav a:hover{color:#fff;}
 .call{background:var(--brass);color:#1b1b18;padding:9px 16px;border-radius:2px;text-decoration:none;font-weight:600;font-size:.92rem;white-space:nowrap;}
